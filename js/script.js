@@ -3,6 +3,7 @@ const submitButton = document.getElementById("subscribe");
 const emailInput = document.getElementById("email");
 const validEmailSpan = document.getElementById("validEmail");
 const generatedEmail = document.getElementById("generated-email");
+const success = document.getElementById("success-page");
 
 // let emailValue = emailInput.value;
 
@@ -27,7 +28,6 @@ submitButton.addEventListener("click", () => {
     }
 });
 
-const success = document.getElementById("success-page");
 const dismissButton = document.getElementById("dismiss-btn");
 
 dismissButton.addEventListener("click", () => {
